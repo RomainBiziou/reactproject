@@ -1,0 +1,59 @@
+/*.App {
+  text-align: center;
+}*/
+
+body {
+  background-color: black;
+}
+
+.background {
+  width: 100%;
+  height: 730px;
+  filter: blur(5px);
+}
+
+#nom_du_site {
+  position: absolute;
+  color: white;
+  bottom: 90%;
+  left: 3%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#texte_centre {
+  position: absolute;
+  color: white;
+  bottom: 60%;
+  left: 25%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  width: 50%;
+}
+
+.bouton_commencer {
+  color: white;
+  background-color: transparent;
+  border: 2px solid #0099cc;
+  border-radius: 5px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 20%;
+  left: 30%;
+  width: 40%;
+  height: 20%;
+}
+
+.bouton_commencer:hover {
+  /* background-color: #0099cc; */
+  cursor: pointer;
+}
+.bouton_commencer:active {
+  background-color: transparent;
+}
+
+#texte_commencer {
+  position: relative;
+  top: 20%;
+  text-align: center;
+  color: white;
+}
