@@ -1,5 +1,5 @@
 # reactproject
-Par Emmanuel Lattier et Romain Biziou
+
 
 Voici le Readme pour comprendre comment fonctionne le projet, tout d'abord il faut faire un "npm install react-hook-form".
 Quand vous avez lancé le projet, il y aura une page de connexion non fonctionnelle pour le moment mais on peut quand meme aller dans la partie Theme en appuyant sur le bouton.
