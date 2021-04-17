@@ -6,6 +6,7 @@ import "./Quizz.css";
 export default function Quizz() {
   const questions = [
     {
+      
       questionText: "Quelle est la capiltale de la France ?",
       answerOptions: [
         { answerText: "New York", isCorrect: false },
@@ -86,6 +87,16 @@ export default function Quizz() {
           </div>
         </>
       )}
+      <div>
+        <button
+          onClick={event => (window.location.href = "/Theme")}
+          type="button"
+          className="Retour"
+        >
+          <h1 id="Retour">RETOUR</h1>
+        </button>
+      </div>
+      
     </div>
   );
 }
