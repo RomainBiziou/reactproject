@@ -33,6 +33,12 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+.back-button {
+  color: #234668;
+  display: flex;
+  margin-left: 0px;
+  margin-top: 20px;
+}
 
 .score-section {
   display: flex;
